@@ -16,7 +16,7 @@ composer update
 
 ## Database 
 
-Access the Database
+File structure
 
 ```bash
 pdo
@@ -33,4 +33,15 @@ pdo
       └── Connection.php
 ```
 
+Creating the Data Source Name
+
+```php
+$dsn = 'mysql:host={host};dbname={dbname};charset=utf8';
+```
+
+Connecting to the Database
+
+```php
+$pdo = new PDO($dsn, DB_USER, DB_PASSWORD);
+```
 
