@@ -1,0 +1,8 @@
+{
+    "require": {
+        "league/plates": "^3.5",
+      "ext-simplexml": "*",
+      "ext-pdo": "*",
+      "ext-xmlwriter": "*"
+    }
+}

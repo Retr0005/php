@@ -1,0 +1,50 @@
+body {
+    font-family: 'Caskaydia Cove';
+    text-align: center;
+    font-weight: bold;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+form {
+    margin: 0 auto;
+    width: 80%;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#result {
+    font-weight: bold;
+    animation: appear 1s ease;
+}
+
+@keyframes appear {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
