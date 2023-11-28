@@ -22,3 +22,4 @@ if ($ordina == 'cognome') {
 echo $templates -> render('index', [
     'studenti' => $result
 ]);
+
